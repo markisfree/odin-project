@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto-VariableFont_wdth,wght.ttf);
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap: 250px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 24px;
+    font-size: 20px;
+}
+
+.top {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    padding-top: 150px;
+    
+
+}
+
+.image {
+    width: 600px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(177, 161, 160);
+}
+
+
+
+.topleft {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: #F9FAF8;
+    font-size: x-large;
+    padding-right: 40px;
+}
+
+.topleft p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.topleft h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.topleft button {
+    background-color: #3882F6;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+
+.information h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.infos img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.infodown {
+    padding-top: 30px;
+    display: flex;
+    gap: 26px;
+}
+
+.infos {
+    border: 3px solid #1F2937;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 315px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+    height: 400px;
+}
+
+.insidebeforefooter {
+    display: flex;
+    background-color: #3882F6;
+    height: 300px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 1400px;
+    height: 200px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    gap: 190px;
+    font-size: 20px;
+}
+
+.insidebeforefooter button {
+    background-color: #3882F6;
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.before-footer {
+    display: flex;
+    justify-content: center;
+}
