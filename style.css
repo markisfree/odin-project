@@ -19,9 +19,11 @@ body {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 45px;
     color: #F9FAF8;
     font-weight: bold;
+    margin-top: -20px;
+    
 }
 
 .headerlinks {
@@ -59,14 +61,22 @@ a {
 
 
 
-.topleft {
+.top .topleft {
     display: flex;
     flex-direction: column;
     width: 400px;
     color: #F9FAF8;
-    font-size: x-large;
     padding-right: 40px;
 }
+
+.top .topleft h1 {
+    font-size: 65px;
+}
+
+.top .topleft p {
+    font-size: 25px;
+}
+
 
 .topleft p {
     font-size: 18px;
@@ -125,7 +135,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 315px;
+    margin-top: 280px;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
@@ -167,3 +177,30 @@ a {
     display: flex;
     justify-content: center;
 }
+
+.footer {
+     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    gap: 250px;
+    height: 100px;
+}
+
+.footerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.footerlinks {
+     display: flex;
+    gap: 24px;
+    font-size: 20px;
+}
+
+.footer pre {
+    margin-top: 0;
+    margin-left: 40px;
+}
+
